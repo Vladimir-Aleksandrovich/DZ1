@@ -13,7 +13,7 @@ if ($deletePostBtn) {
       headers: {
         'Content-type': 'application/json',
       },
-      body: JSON.stringify({ name: request.body.email }),
+      body: JSON.stringify({ id: Date.now() }),
     })
       .then((response) => { console.log({ response }) })
   })

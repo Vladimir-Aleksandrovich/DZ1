@@ -4,14 +4,16 @@
   "main": "inst.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node inst.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
     "express": "^4.17.3",
-    "hbs": "^4.2.0"
+    "hbs": "^4.2.0",
+    "ws": "^8.5.0"
   },
   "devDependencies": {
     "eslint": "^8.10.0",
